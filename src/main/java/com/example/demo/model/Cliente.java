@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "clienti")
 public class Cliente {
-	// modifica x GIT
+	// modifica x GI
 	 @Id
 	 @GeneratedValue(strategy=GenerationType.AUTO)
 	 @Column(name = "idclienti")	
