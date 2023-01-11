@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "clienti")
 public class Cliente {
-	
+	// modific
 	 @Id
 	 @GeneratedValue(strategy=GenerationType.AUTO)
 	 @Column(name = "idclienti")	
