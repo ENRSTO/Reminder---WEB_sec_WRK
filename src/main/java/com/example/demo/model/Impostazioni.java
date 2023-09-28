@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+// MODEL DELLE IMPOSTAZIONI 
 @Entity
 @Table(name = "impostazioni")
 public class Impostazioni {
