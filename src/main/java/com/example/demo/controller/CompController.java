@@ -69,11 +69,10 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 @RestController
 @CrossOrigin("http://localhost:8080")
 public class CompController {
-	
+
+    //SAMUELE
 	@Autowired
 	QueryService qryService;
-	
-	
 	@GetMapping("/decodeAll")  
 	@ResponseBody
 	public String getTaskAll() {
