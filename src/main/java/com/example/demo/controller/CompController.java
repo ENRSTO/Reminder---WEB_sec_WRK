@@ -71,6 +71,7 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 public class CompController {
 
     //SAMUELE
+    // ENRICO
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
