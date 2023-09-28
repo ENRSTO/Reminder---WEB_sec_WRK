@@ -50,7 +50,8 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 @Controller
 public class TaskController {
-	
+	// commento
+    
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
