@@ -50,22 +50,18 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 @Controller
 public class TaskController {
-	
-	
-	
+	// commento
+    
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
 	@Autowired private QueryService queryservice;
-	
-	
 	@Autowired
 	private ApplicationContext context;
-
 	//metodo per chiusura APP
+
 	@GetMapping("/shutdown-app")
 	public void shutdownApp() {
-
 	    int exitCode = SpringApplication.exit(context, (ExitCodeGenerator) () -> 0);
 	    System.exit(exitCode);
 	}
@@ -75,8 +71,6 @@ public class TaskController {
        session.setAttribute("error", getErrorMessage(request, "SPRING_SECURITY_LAST_EXCEPTION")); 
        return "login"; 
     } 
-	
-
 	
 	private String getErrorMessage(HttpServletRequest request, String key) {
 	        Exception exception = (Exception) request.getSession().getAttribute(key); 
@@ -90,7 +84,6 @@ public class TaskController {
 	        } 
 	        return error;
 	}
-	
 	
 	@GetMapping("/tasks")     //visualizza il form di inserimento all'avvio
     public String showMain(Model model) {
@@ -137,10 +130,7 @@ public class TaskController {
     		    model.addAttribute("scadenze",scadenze);     		   
     	 }
     	 return "deck";	
-    	
 	}
-	
-	
 	
 	@RequestMapping("/clienti")     //visualizza il form di inserimento all'avvio
     public String showClienti(Model model) {
@@ -150,7 +140,6 @@ public class TaskController {
       		    return "clienti";	
 		
 	}
-
 
 	@RequestMapping("/impostazioni")     //visualizza il form di inserimento all'avvio
     public String impostazioni(Model model) {
@@ -167,8 +156,5 @@ public class TaskController {
         }	    
       	return "impostazioni";			
 	}
-	
-	
-	
 
 }
