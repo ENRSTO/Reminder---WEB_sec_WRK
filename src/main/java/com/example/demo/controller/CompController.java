@@ -72,6 +72,8 @@ public class CompController {
 
     //SAMUELE
     // ENRICO
+	//MAIN
+    
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
