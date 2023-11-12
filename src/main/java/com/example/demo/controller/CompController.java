@@ -74,7 +74,7 @@ public class CompController {
     //ENRICO
 	//MAIN
     //PUlizia codice 34
-    
+    //FILIPPO vedi il conflitto?
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
