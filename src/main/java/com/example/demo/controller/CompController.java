@@ -73,6 +73,7 @@ public class CompController {
     //SAMUELE
     //ENRICO
 	//MAIN
+    //PUlizia codice 34
     
 	@Autowired
 	QueryService qryService;
