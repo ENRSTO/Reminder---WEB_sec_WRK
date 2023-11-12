@@ -73,7 +73,7 @@ public class CompController {
     //SAMUELE
     //ENRICO
 	//MAIN
-    
+    //FILIPPO vedi il conflitto?
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
