@@ -82,6 +82,10 @@ public class CompController {
     //ex2
     
     // EX5
+       
+    // EX6
+     
+   
     
 	@Autowired
 	QueryService qryService;
