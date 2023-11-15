@@ -80,6 +80,8 @@ public class CompController {
     // EX1 COMMIT 2
     
     //ex2
+    //ex4
+    //ex4 - 1
     
 	@Autowired
 	QueryService qryService;
