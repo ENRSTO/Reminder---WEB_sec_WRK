@@ -81,6 +81,8 @@ public class CompController {
     
     //ex2
     
+    // EX5
+    
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
