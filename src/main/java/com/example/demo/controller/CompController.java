@@ -75,6 +75,12 @@ public class CompController {
 	//MAIN
     //PUlizia codice 34
     //FILIPPO vedi il conflitto?
+    
+    // EX1  commit1 
+    // EX1 COMMIT 2
+    
+    //ex2
+    
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
