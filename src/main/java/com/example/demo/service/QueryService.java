@@ -54,6 +54,8 @@ public class QueryService implements IqueryService {
 	
 	//tools
 	
+	
+	//ERNESTO
 	public LocalDate convertToLocalDateViaInstant(Date dateToConvert) {
 	    return dateToConvert.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
 	}
