@@ -48,6 +48,13 @@ import javassist.expr.NewArray;
  * @author enrsto
  *
  */
+
+
+/**
+ * 
+ * @author commento 2   
+ *
+ */
 @Service
 public class QueryService implements IqueryService {
 	
