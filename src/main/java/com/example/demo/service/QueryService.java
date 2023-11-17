@@ -43,7 +43,18 @@ import com.example.demo.model.TaskEvasi;
 import com.example.demo.model.TaskSave;
 
 import javassist.expr.NewArray;
+/**
+ * Servizio for qry system
+ * @author enrsto
+ *
+ */
 
+
+/**
+ * 
+ * @author commento 2   
+ *
+ */
 @Service
 public class QueryService implements IqueryService {
 	
