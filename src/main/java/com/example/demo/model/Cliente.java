@@ -10,6 +10,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+// ex - 11
+
+
 @Entity
 @Table(name = "clienti")
 public class Cliente {
