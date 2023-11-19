@@ -12,6 +12,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+//ex 1 conflit?
+
 @Entity
 @Table(name = "clienti")
 public class Cliente {
