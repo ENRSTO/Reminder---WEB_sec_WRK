@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+// EX-10
+
 import java.io.Serializable;
 import java.math.BigInteger;
 
