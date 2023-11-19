@@ -1,7 +1,5 @@
 package com.example.demo.model;
 
-// EX-10
-
 import java.io.Serializable;
 import java.math.BigInteger;
 
@@ -13,6 +11,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 //ex 1 conflit?
+
+
+// ex - 11
+//nb
 
 @Entity
 @Table(name = "clienti")
