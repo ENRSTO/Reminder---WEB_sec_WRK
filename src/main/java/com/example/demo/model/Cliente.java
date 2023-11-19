@@ -12,7 +12,7 @@ import javax.persistence.Table;
 
 
 // ex - 11
-
+//nb
 
 @Entity
 @Table(name = "clienti")
