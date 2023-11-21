@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Reminder1Application {
     //main STock + main zeb
+    // superman
+    // superman II 
+    // superman III
 	public static void main(String[] args) {
 		SpringApplication.run(Reminder1Application.class, args);
 	}
