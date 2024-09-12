@@ -69,20 +69,6 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 @RestController
 @CrossOrigin("http://localhost:8080")
 public class CompController {
-
-    //SAMUELE
-    //ENRICO
-	//MAIN
-    //PUlizia codice 34
-    //FILIPPO vedi il conflitto?
-    
-    // EX1  commit1 
-    // EX1 COMMIT 2
-    
-    //ex2
-    
-    
-    // EX6
     
 	@Autowired
 	QueryService qryService;
@@ -182,8 +168,6 @@ public class CompController {
 		return valore;  // ritorna una stringa json
 
 	}
-	
-	
 	
 	//----------------------  controller x view deck  WIP   --------------------------------------------------------------
 	
@@ -469,10 +453,7 @@ public class CompController {
 //------------------------pagina clienti ---------------------------------------------------	
 	
 	
-	
-	
 // -----------------REPORTISTICA------------------------------------------------------------------------------- 
-	
 	
 	
 	@GetMapping("/reportistica")
@@ -507,7 +488,6 @@ public class CompController {
 				return "Done";
 	}
 
-	
 	public void visualizzaPdf (String generatedFile) throws IOException{
 		
 		ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/C", "explorer "+generatedFile);
@@ -515,17 +495,11 @@ public class CompController {
 		
 	}
 	
-
     public void visualizzaPdf1 (String generatedFile) throws IOException{
         
         ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/C", "explorer "+generatedFile);
         processBuilder.start();
         
     }
-	
-	
-	
-	   
-	   
 
 }
