@@ -515,6 +515,14 @@ public class CompController {
 		
 	}
 	
+
+    public void visualizzaPdf1 (String generatedFile) throws IOException{
+        
+        ProcessBuilder processBuilder = new ProcessBuilder("cmd.exe", "/C", "explorer "+generatedFile);
+        processBuilder.start();
+        
+    }
+	
 	
 	
 	   
