@@ -50,15 +50,17 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 @Controller
 public class TaskController {
-	// commento
-    // coomento Lisa
     
+    /**
+     *  67 - BigBang
+     */
+	    
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
 	@Autowired private QueryService queryservice;
-	@Autowired
-	private ApplicationContext context;
+
+	@Autowired private ApplicationContext context;
 	//metodo per chiusura APP
 
 	@GetMapping("/shutdown-app")
@@ -67,7 +69,7 @@ public class TaskController {
 	    System.exit(exitCode);
 	}
 	
-	@GetMapping("/login")   //buono
+	@GetMapping("/login")  
     public String login(HttpServletRequest request, HttpSession session) { 
        session.setAttribute("error", getErrorMessage(request, "SPRING_SECURITY_LAST_EXCEPTION")); 
        return "login"; 
