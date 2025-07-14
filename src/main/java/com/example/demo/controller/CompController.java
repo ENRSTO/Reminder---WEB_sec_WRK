@@ -70,19 +70,9 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 @CrossOrigin("http://localhost:8080")
 public class CompController {
 
-    //SAMUELE
-    //ENRICO
-	//MAIN
-    //PUlizia codice 34
-    //FILIPPO vedi il conflitto?
-    
-    // EX1  commit1 
-    // EX1 COMMIT 2
-    
-    //ex2
-    
-    
-    // EX6
+   /**
+    * CONTROLLER DEI COMPONENTI
+    */
     
 	@Autowired
 	QueryService qryService;
