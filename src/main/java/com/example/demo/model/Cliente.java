@@ -10,12 +10,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-//ex 1 conflit?
-
-
-// ex - 11
-//nb
-
 @Entity
 @Table(name = "clienti")
 public class Cliente {
@@ -133,6 +127,12 @@ public class Cliente {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
+    @Override
+    public String toString() {
+        return "Cliente [idclienti=" + idclienti + ", codcliente=" + codcliente + ", ragione=" + ragione
+                + ", indirizzo=" + indirizzo + ", phone=" + phone + ", email=" + email + "]";
+    }
 	 
 
 }
