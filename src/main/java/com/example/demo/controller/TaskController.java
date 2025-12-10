@@ -52,11 +52,11 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 public class TaskController {
     // CONTROLLER
     // Massa
+    // Firenze
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
 	@Autowired private QueryService queryservice;
-
 	@Autowired private ApplicationContext context;
 	//metodo per chiusura APP
 
