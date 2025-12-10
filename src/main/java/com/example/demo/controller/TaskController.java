@@ -52,6 +52,9 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 public class TaskController {
     // CONTROLLER
     // Massa
+    
+    //73 jersey 
+    
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
