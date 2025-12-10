@@ -54,7 +54,7 @@ public class TaskController {
     // Massa
     // Firenze
     // Carrara
- 
+
     @Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
