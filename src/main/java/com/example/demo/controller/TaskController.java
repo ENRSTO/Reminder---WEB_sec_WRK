@@ -50,20 +50,7 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 
 @Controller
 public class TaskController {
-    
-       
-    /**
-     *  67 - BigBang
-     */
-	
-	 /**
-     * CONTROLLER dei TASK 
-     */
-	    
-    /**
-     *  70 - SHeldon
-     */
-    
+    // CONTROLLER
 	@Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
 	@Autowired private UserRepository user;
