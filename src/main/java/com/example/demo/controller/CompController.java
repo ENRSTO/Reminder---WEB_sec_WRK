@@ -71,7 +71,7 @@ import net.sf.jasperreports.engine.xml.JRXmlLoader;
 public class CompController {
 
    /**
-    * CONTROLLER DEI COMPONENTI
+    * CONTROLLER DEI COMPONENTI ---- CORTINA
     */
     
 	@Autowired
