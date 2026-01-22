@@ -75,7 +75,7 @@ public class CompController {
     */
     
     // Ferrara
-    
+    // Ferrara 2
     
 	@Autowired
 	QueryService qryService;
