@@ -74,6 +74,9 @@ public class CompController {
     * CONTROLLER DEI COMPONENTI
     */
     
+    // Ferrara
+    
+    
 	@Autowired
 	QueryService qryService;
 	@GetMapping("/decodeAll")  
