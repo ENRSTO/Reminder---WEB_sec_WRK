@@ -55,6 +55,7 @@ public class TaskController {
     // Firenze
     // Gargano
     // Carrara
+    // Bologna
 
     @Autowired private SecurityUserDetailsService userDetailsManager; 
 	@Autowired private PasswordEncoder passwordEncoder; 
